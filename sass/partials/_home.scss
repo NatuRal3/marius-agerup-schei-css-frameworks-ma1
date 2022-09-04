@@ -4,21 +4,20 @@
     height: 200px;
     border-width: 3px;
     border-radius: 15px;
-    background-color: getColor(boxcolor);
-    border-color: getColor(boxcolor);
+    background-color: getColor(card-color);
+    border-color: getColor(card-color);
 }
 .content__container{min-height: 60vh;}
 
 .card--active{
-    background-color: getColor(primary);
-    border-color: getColor(white);
+    background-color: getColor(primary-color);
+    border-color: getColor(white-color);
 }
 
 .card--reverse{
-    background-color: getColor(white);
-    border-color: getColor(primary);
+    background-color: getColor(white-color);
+    border-color: getColor(primary-color);
 }
-
 
 .flex{display: flex;}
 .row {flex-direction: row;}
