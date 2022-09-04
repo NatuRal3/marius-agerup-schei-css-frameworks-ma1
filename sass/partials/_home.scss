@@ -1,0 +1,24 @@
+.card{
+    margin: 5px 5px;
+    width: 200px;
+    height: 200px;
+    border-width: 3px;
+    border-radius: 15px;
+    background-color: getColor(boxcolor);
+    border-color: getColor(boxcolor);
+}
+.content__container{min-height: 60vh;}
+
+.card--active{
+    background-color: getColor(primary);
+    border-color: getColor(white);
+}
+
+.card--reverse{
+    background-color: getColor(white);
+    border-color: getColor(primary);
+}
+
+
+.flex{display: flex;}
+.row {flex-direction: row;}

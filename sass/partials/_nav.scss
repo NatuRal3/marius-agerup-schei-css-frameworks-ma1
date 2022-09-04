@@ -1,0 +1,10 @@
+
+nav, .navbar-light, .navbar-nav, .nav-link {
+    background: getColor(nav-color) !important;
+    color: getColor(text-color) !important;
+}
+
+.active > .nav-link {
+    color: getColor(primary) !important;
+}
+

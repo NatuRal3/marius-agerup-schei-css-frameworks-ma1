@@ -1,0 +1,14 @@
+
+$colors:(
+    white: #FFFFFF,
+    bg-color:#E5E5E5,
+    p:#E5E5E5,
+    primary: #C32C72,
+    boxcolor: #F4F3EE,
+    nav-color:#F4F3EE,
+    text-color:#8D8D8D,
+    );
+    
+    @function getColor($color) {
+        @return map-get($colors, $color);
+    }
